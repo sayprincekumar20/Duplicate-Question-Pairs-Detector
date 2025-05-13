@@ -25,6 +25,8 @@ import pickle
 model = pickle.load(open('model.pkl','rb'))
 
 st.title('Duplicate Question Pairs Detector')
+# 💡 Add your repo link here
+st.markdown("[🔗 View Repository](https://github.com/sayprincekumar20/Duplicate-Question-Pairs-Detector)")
 
 st.markdown("Enter two questions to check if they are semantically similar (i.e., duplicates).")
 
