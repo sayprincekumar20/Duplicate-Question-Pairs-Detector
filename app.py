@@ -27,6 +27,12 @@ model = pickle.load(open('model.pkl','rb'))
 st.title('Duplicate Question Pairs Detector')
 # 💡 Add your repo link here
 st.markdown("[🔗 View Repository](https://github.com/sayprincekumar20/Duplicate-Question-Pairs-Detector)")
+st.markdown("""
+This is a **Duplicate Question Detector** web application built with **Streamlit**.  
+It takes two questions as input and uses a trained machine learning model to determine if the questions are semantically similar (i.e., duplicates of each other).
+
+Such systems are commonly used in platforms like **Quora** or **Stack Overflow** to detect and merge similar questions to avoid redundancy and improve search results.
+""")
 
 st.markdown("Enter two questions to check if they are semantically similar (i.e., duplicates).")
 
