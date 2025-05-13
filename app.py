@@ -65,7 +65,7 @@ if st.button('Find'):
         result = model.predict(query)[0]
 
         if result:
-            st.success('❌ The questions are **Duplicate**.')
+            st.error('❌ The questions are **Duplicate**.')
         else:
-            st.error('✅ The questions are **Not Duplicate**.')
+            st.success('✅ The questions are **Not Duplicate**.')
 
